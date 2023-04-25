@@ -15,7 +15,7 @@ public class CharAgent : Agent
         float moveY = actions.ContinuousActions[1];
 
         float moveSpeed = 1f;
-        transform.position += new Vector3(moveX, moveY)*Time.deltaTime * moveSpeed;
+        transform.localPosition += new Vector3(moveX, moveY)*Time.deltaTime * moveSpeed;
     }
 
     public override void CollectObservations(VectorSensor sensor)
@@ -33,7 +33,7 @@ public class CharAgent : Agent
 
     public override void OnEpisodeBegin()
     {
-        transform.position = Vector3.zero;
+        transform.localPosition = Vector3.zero;
     }
 
     private void OnTriggerEnter(Collider other)
