@@ -6,7 +6,6 @@ Library: lib_burst_generated
 --dump=Function
 --float-precision=Low
 --float-mode=Fast
---compilation-defines=UNITY_SERVER
 --compilation-defines=UNITY_2020_3_46
 --compilation-defines=UNITY_2020_3
 --compilation-defines=UNITY_2020
@@ -181,7 +180,6 @@ Library: lib_burst_generated
 --dump=Function
 --float-precision=Low
 --float-mode=Fast
---compilation-defines=UNITY_SERVER
 --compilation-defines=UNITY_2020_3_46
 --compilation-defines=UNITY_2020_3
 --compilation-defines=UNITY_2020
@@ -355,7 +353,6 @@ Library: lib_burst_generated
 --global-safety-checks-setting=Off
 --dump=Function
 --float-precision=Standard
---compilation-defines=UNITY_SERVER
 --compilation-defines=UNITY_2020_3_46
 --compilation-defines=UNITY_2020_3
 --compilation-defines=UNITY_2020
@@ -521,7 +518,6 @@ Library: lib_burst_generated
 --global-safety-checks-setting=Off
 --dump=Function
 --float-precision=Standard
---compilation-defines=UNITY_SERVER
 --compilation-defines=UNITY_2020_3_46
 --compilation-defines=UNITY_2020_3
 --compilation-defines=UNITY_2020
